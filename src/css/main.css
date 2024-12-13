@@ -22,6 +22,16 @@
     margin-top: 100px;
 }
 
+.h3 {
+    font-family: var(--texte, "Inria Sans");
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
 .main-title {
     position: absolute;
     top: 50%;
@@ -73,8 +83,25 @@
 .image-presentation {
     width: 237px;
     height: 158px;
-    flex-shrink: 0;
+    flex-shrink: 2;
     margin-left: 19%;
     margin-top: 35px;
     margin-bottom: 35px;
+    
 }
+
+.image-courts-metrages {
+    width: 102px;
+    height: 134px;
+    flex-shrink: 0;
+}
+
+.element {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
