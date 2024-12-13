@@ -128,3 +128,26 @@
     margin-bottom: 100px;
 }
 
+.image-schmerkin {
+    width: 102px;
+    height: 95px;
+    flex-shrink: 0;
+}
+
+.image-template-invité {
+    width: 190px;
+    height: 177px;
+    flex-shrink: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 23%;
+}
+
+.image-template-invité1 {
+    width: 227px;
+    height: 127px;
+    flex-shrink: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 23%;
+}
